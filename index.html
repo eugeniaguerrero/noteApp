@@ -7,9 +7,11 @@
       Hello
     </div>
 
-    <div id ='singleView'></div>
-
     <div id = 'single-note'></div>
+    <form id='text' method='POST' action='#notes/new'>
+      <textarea rows='4' cols='100'></textarea>
+      <input type='submit' value='Submit'>
+    </form>
 
     <script src="tests/assert.js"></script>
     <script src="controllers/note-controller.js"></script>
