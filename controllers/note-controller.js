@@ -13,5 +13,3 @@
 
   exports.NoteController = NoteController;
 })(this);
-
-// document.getElementById(1).innerHTML;

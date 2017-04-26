@@ -17,16 +17,4 @@
       return location.hash.split("#notes/")[1];
     };
 
-    // function showNote(note) {
-    //   document
-    //     .getElementById('app')
-    //     .innerHTML = note
-    // };
-
-    // showContentForSingleNote();
-    //
-    // function showContentForSingleNote() {
-    //   window.addEventListener("hashchange", controller.loadSingleNote())
-    // };
-    //
-    // controller.loadSingleNote(getNoteFromUrl(window.location))
+  
