@@ -5,8 +5,7 @@ function testSingleNote(){
 }
 
 function testSingleNoteHtmlConverter(){
-  var noteModel = new Note("Turtles are cool");
-  var singleNote = new SingleNote(noteModel);
+  var singleNote = new SingleNote("Turtles are cool");
   assert.isTrue(singleNote.SingleNoteHtmlConverter() === "<div>Turtles are cool</div>")
 }
 

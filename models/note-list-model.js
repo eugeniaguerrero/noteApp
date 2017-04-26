@@ -16,5 +16,9 @@
     return allElements;
   };
 
+  List.prototype.printSpecificNote = function(number) {
+    return this.notes[number]
+  };
+
   exports.List = List;
 })(this);
