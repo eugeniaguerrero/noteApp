@@ -17,4 +17,4 @@
       return location.hash.split("#notes/")[1];
     };
 
-  
+  controller.submitNote();
