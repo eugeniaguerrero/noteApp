@@ -9,9 +9,11 @@
   };
 
   List.prototype.printNote = function() {
+    var allElements = '';
     for(var i = 0; i < this.notes.length; i++){
-      return this.notes[i];
+      allElements += this.notes[i] + '/b';
     }
+    return allElements;
   };
 
   exports.List = List;
